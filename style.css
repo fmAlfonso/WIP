@@ -112,6 +112,24 @@ button:hover {
     box-shadow: 0 4px 12px rgba(0,0,0,0.07);
 }
 
+.info-flex {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.info-left, .info-right {
+    flex: 1;
+    min-width: 280px;
+}
+
+.info-right ul {
+    padding-left: 20px;
+}
+
+.info-right li {
+    margin-bottom: 10px;
+}
 
 .cta {
     text-align: center;
