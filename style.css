@@ -16,4 +16,131 @@ h1, h2, h3 {
     margin: auto;
 }
 
+button {
+    background: #ffb23f;
+    border: none;
+    padding: 14px 22px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+    transition: 0.3s;
+}
 
+button:hover {
+    background: #ffcd73;
+}
+
+
+.hero {
+    background: #5a2d82;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    margin: 15px auto;
+    max-width: 600px;
+    font-size: 1.2rem;
+}
+
+
+.features {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.feature-box {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+}
+
+
+.visual {
+    padding: 60px 0;
+    background: white;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.visual img {
+    width: 450px;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.visual-text {
+    flex: 1;
+    min-width: 280px;
+}
+
+
+.info {
+    padding: 60px 0;
+    background: #f8f6fc;
+}
+
+.info-box {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+}
+
+
+.cta {
+    text-align: center;
+    padding: 70px 0;
+    background: #5a2d82;
+    color: white;
+}
+
+.cta h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+
+footer {
+    background: #111;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #ffb23f;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .hero h1 { font-size: 2.2rem; }
+    .hero p { font-size: 1rem; }
+    .visual { text-align: center; }
+}
