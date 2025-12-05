@@ -1,16 +1,8 @@
-:root {
-    --primary: #5a2d82;
-    --secondary: #ffb23f;
-    --light: #f8f6fc;
-    --dark: #1a1a1a;
-    --text-gray: #555;
-}
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background: var(--light);
-    color: var(--dark);
+    background: #f8f6fc;
+    color: #1a1a1a;
     line-height: 1.6;
 }
 
@@ -25,7 +17,7 @@ h1, h2, h3 {
 }
 
 button {
-    background: var(--secondary);
+    background: #ffb23f;
     border: none;
     padding: 14px 22px;
     font-size: 1rem;
@@ -42,7 +34,7 @@ button:hover {
 
 
 .hero {
-    background: var(--primary);
+    background: #5a2d82;
     color: white;
     padding: 80px 0;
     text-align: center;
@@ -109,7 +101,7 @@ button:hover {
 
 .info {
     padding: 60px 0;
-    background: var(--light);
+    background: #f8f6fc;
 }
 
 .info-box {
@@ -124,7 +116,7 @@ button:hover {
 .cta {
     text-align: center;
     padding: 70px 0;
-    background: var(--primary);
+    background: #5a2d82;
     color: white;
 }
 
@@ -132,6 +124,7 @@ button:hover {
     font-size: 2rem;
     margin-bottom: 15px;
 }
+
 
 footer {
     background: #111;
@@ -142,7 +135,7 @@ footer {
 }
 
 footer a {
-    color: var(--secondary);
+    color: #ffb23f;
     text-decoration: none;
 }
 
